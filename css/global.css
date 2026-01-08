@@ -1,0 +1,49 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background: white;
+}
+
+
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  background: #30b868;
+  color: white;
+}
+
+.btn:hover {
+  background: #266c3d;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid white;
+  color: whitesmoke;
+}
+
+.btn-outline:hover {
+  background:#f5f5f5 ;
+}
